@@ -12,6 +12,10 @@ export const GlobalStyle = createGlobalStyle`
     box-shadow: 0 0 0 2px ${({ theme }) => theme['green-500']};
   }
 
+  a {
+    text-decoration: none;
+  }
+
   body {
     background-color: ${({ theme }) => theme['gray-900']};
     color: ${({ theme }) => theme.white};
